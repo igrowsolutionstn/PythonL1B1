@@ -1,8 +1,8 @@
 import pytest
-import hello    # The code to test
+import bank    # The code to test
 
-def test_increment():
-    assert hello.increment(3) == 4
+def test_withdraw():
+    assert bank.withdraw(10,10) == 0
 
-def test_decrement():
-    assert hello.decrement(3) == 2
+def test_deposit():
+    assert bank.deposit(10,10) == 20
