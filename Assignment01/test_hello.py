@@ -10,5 +10,3 @@ def test_deposit():
 def test_name():
     assert bank.name=='Tom'
 
-def test_variable_count():
-    len(locals)
