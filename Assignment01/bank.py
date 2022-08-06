@@ -7,15 +7,15 @@ Direction ---> don't change any of the existing code. please add your code only 
 '''
 
 def deposit(b,a):
-    return #your code here
+    return b+a #your code here
 
 def withdraw(b,a):
-    return #your code here
+    return b-a #your code here
 
 name = "Tom"
 balance = 100
 amount = 10
-ch='' #your code here
+ch='w' #your code here
 
 if ch=='w':
     balance = withdraw(balance, amount)
@@ -24,4 +24,4 @@ elif ch=='d':
 else:
     print('Invalid Choice')
 
-print("Balance Money : ") #your code here
+print("Balance Money : ", balance) #your code here
