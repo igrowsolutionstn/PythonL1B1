@@ -6,3 +6,7 @@ def test_withdraw():
 
 def test_deposit():
     assert bank.deposit(10,10) == 20
+
+def test_name():
+    assert bank.name=='Tom'
+
