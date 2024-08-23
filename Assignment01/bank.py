@@ -6,16 +6,16 @@ Perform deposit and withdraw operations for a customer in a bank
 Direction ---> don't change any of the existing code. please add your code only at placeholder #your code here
 '''
 
-def deposit(b,a):
-    return b+a
+def deposit(bal,amt):
+    return #your code here
 
-def withdraw(b,a):
-    return b-a
+def withdraw(bal,amt):
+    return #your code here
 
 name = "Tom"
 balance = 100
 amount = 10
-ch='w'
+ch='' #your code here
 
 if ch=='w':
     balance = withdraw(balance, amount)
@@ -24,4 +24,4 @@ elif ch=='d':
 else:
     print('Invalid Choice')
 
-print("Balance Money : ",withdraw(100,10))
+print("Balance Money : ") #your code here
